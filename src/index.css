@@ -1,5 +1,16 @@
-body {
+:root {
+  --accent-color: #FFBC0E;
+  --secondary-color: #E7E7E7;
+}
+
+* {
   margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

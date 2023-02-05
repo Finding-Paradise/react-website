@@ -1,8 +1,12 @@
 import React from 'react'
+import Header from '../components/Header'
+import '../App.css'
 
 function HomePage() {
   return (
-    <h1>Home Page</h1>
+    <div className="home-page">
+        <Header />
+    </div>
   )
 }
 
