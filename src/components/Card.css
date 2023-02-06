@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+}
+
+.card h1, p {
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin: 18px 0;
+}
+
+.card h1 > .grey-h1 {
+    color: #E7E7E7;
+}
+
+.card h1 > .yellow-h1 {
+    color: var(--accent-color);
+}
